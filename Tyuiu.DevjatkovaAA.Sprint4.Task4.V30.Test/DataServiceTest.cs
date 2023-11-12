@@ -21,7 +21,7 @@ namespace Tyuiu.DevjatkovaAA.Sprint4.Task4.V30.Test
             int[,] wait = { { 0, 4, 6, 6, 0 },
                             { 6, 0, 6, 0, 0 },
                             { 0, 0, 0, 0, 6 },
-                            { 6, 4, 0, 6, 6 },
+                            { 6, 4, 0, 6, 6 }, 
                             { 0, 4, 0, 4, 0 } }; ;
 
             CollectionAssert.AreEqual(wait, res);
