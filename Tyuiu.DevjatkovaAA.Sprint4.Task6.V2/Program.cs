@@ -53,7 +53,7 @@ namespace Tyuiu.DevjatkovaAA.Sprint4.Task6.V2
             }
             Console.WriteLine();
             
-            Console.ReadKey();
+            Console.ReadKey(); 
         }
     }
 }

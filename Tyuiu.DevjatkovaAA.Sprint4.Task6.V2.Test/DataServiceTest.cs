@@ -17,7 +17,7 @@ namespace Tyuiu.DevjatkovaAA.Sprint4.Task6.V2.Test
             string[] res = ds.Calculate(array);
             string[] wait = new string[] { "Черный", "Зеленый", "Красный", "Желтый", "Фиолетовый" };
             
-            CollectionAssert.AreEqual(wait, res);
+            CollectionAssert.AreEqual(wait, res); 
         }
     }
 }

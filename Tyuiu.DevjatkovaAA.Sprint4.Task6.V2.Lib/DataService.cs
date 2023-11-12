@@ -12,7 +12,7 @@ namespace Tyuiu.DevjatkovaAA.Sprint4.Task6.V2.Lib
         public string[] Calculate(string[] array)
         {
             string[] mas = Array.FindAll(array, x => x.Length > 5);
-            return mas;
+            return mas; 
         }
     }
 }
