@@ -11,7 +11,7 @@ namespace Tyuiu.DevjatkovaAA.Sprint4.Task5.V18.Lib
     {
         public int[,] Calculate(int[,] matrix)
         {
-            int rows = matrix.GetUpperBound(0) + 1;
+            int rows = matrix.GetUpperBound(0) + 1; 
             int colums = matrix.Length / rows;
 
             for (int i = 0; i < rows; i++)

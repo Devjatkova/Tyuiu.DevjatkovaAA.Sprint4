@@ -12,7 +12,7 @@ namespace Tyuiu.DevjatkovaAA.Sprint4.Task5.V18.Test
         {
             DataService ds = new DataService();
 
-            int[,] matrix = new int[3, 3] { { 3, -4, 6, },
+            int[,] matrix = new int[3, 3] { { 3, -4, 6, }, 
                                             { 6, 7, -6, },
                                             { 5, -3, 5, } };
             int[,] res = ds.Calculate(matrix);
