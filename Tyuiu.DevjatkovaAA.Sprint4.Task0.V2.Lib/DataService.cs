@@ -13,7 +13,7 @@ namespace Tyuiu.DevjatkovaAA.Sprint4.Task0.V2.Lib
         {
             int S = 0;
 
-            for (int i = 0; i <= array.Length - 1; i++)
+            for (int i = 0; i <= array.Length - 1; i++) 
             {
                 if (array[i] % 2 != 0)
                 {

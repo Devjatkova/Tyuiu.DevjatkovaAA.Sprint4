@@ -10,7 +10,7 @@ namespace Tyuiu.DevjatkovaAA.Sprint4.Task0.V2.Test
         [TestMethod]
         public void VAlidGetSumOddArrEl()
         {
-            DataService ds = new DataService();
+            DataService ds = new DataService(); 
 
             int[] numsArray = { 5, 3, 7, 1, 3, 9, 8, 7, 9, 4 };
             int res = ds.GetSumOddArrEl(numsArray);

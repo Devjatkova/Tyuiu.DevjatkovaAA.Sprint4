@@ -44,7 +44,7 @@ namespace Tyuiu.DevjatkovaAA.Sprint4.Task0.V2
             Console.WriteLine("***************************************************************************");
 
             int S = 0;
-            S = ds.GetSumOddArrEl(numsArray);
+            S = ds.GetSumOddArrEl(numsArray); 
             Console.WriteLine("Сумма нечётных элементов массива = " + S);
 
             Console.WriteLine();
