@@ -19,7 +19,7 @@ namespace Tyuiu.DevjatkovaAA.Sprint4.Task3.V23.Lib
             for (int i = 0; i < rows; i++)
             {
                 for (int j = 0; j < colums; j++)
-                {
+                { 
                     if (array[i, j] % 2 == 0)
                     {
                         count++;

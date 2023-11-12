@@ -44,7 +44,7 @@ namespace Tyuiu.DevjatkovaAA.Sprint4.Task3.V23
 
             for (int i = 0; i < rows; i++)
             {
-                for (int j = 0; j < colums; j++)
+                for (int j = 0; j < colums; j++) 
                 {
                     Console.Write($"{mas[i,j]} \t");
                 }

@@ -17,7 +17,7 @@ namespace Tyuiu.DevjatkovaAA.Sprint4.Task3.V23.Test
                                          { 5, 6, 7, 6, 4 },
                                          { 4, 2, 3, 6, 4 },
                                          { 5, 2, 4, 2, 3 } };
-            int res = ds.Calculate(mas);
+            int res = ds.Calculate(mas); 
             int wait = 14;
 
             Assert.AreEqual(wait, res);
