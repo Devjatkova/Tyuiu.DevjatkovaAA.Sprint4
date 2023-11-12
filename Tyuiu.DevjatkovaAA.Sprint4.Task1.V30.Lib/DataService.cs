@@ -17,7 +17,7 @@ namespace Tyuiu.DevjatkovaAA.Sprint4.Task1.V30.Lib
             {
                 if (array[i] % 2 == 0 )
                 {
-                    P *= array[i];
+                    P *= array[i]; 
                 }
             }
             return P;

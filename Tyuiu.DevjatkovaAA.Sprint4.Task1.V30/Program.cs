@@ -59,7 +59,7 @@ namespace Tyuiu.DevjatkovaAA.Sprint4.Task1.V30
             Console.WriteLine("***************************************************************************");
 
             int res = ds.Calculate(array);
-            Console.WriteLine("Произведение нечётных элементов массива = " + res);
+            Console.WriteLine("Произведение нечётных элементов массива = " + res); 
 
             Console.WriteLine();
             Console.ReadKey();
